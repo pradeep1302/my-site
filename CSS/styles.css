@@ -9,6 +9,8 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 90px;
     color: #66bfbf;
+    width: 100%;
+    position: relative;
 }
 
 h2 {
@@ -63,14 +65,18 @@ a {
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 30%;
+    top: 40%;
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 30%;
+    top: 10%;
+}
+
+.mountain {
+    width: 50%;
 }
 
 .skill-row {
@@ -82,7 +88,18 @@ a {
 
 .hello {
     color: #40514e;
-    width: 20cm;
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.getintouch {
+    color: #40514e;
+    width: 50%;
     margin: auto;
     line-height: 2;
 }
@@ -106,8 +123,31 @@ hr {
     margin: 50px;
 }
 
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
 .btn:hover {
-    color: #30e3cb;
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
 }
 
 .bottom-container {
@@ -118,6 +158,10 @@ hr {
     display: inline-block;
     color: #11999e;
     padding: 30px;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
 }
 
 #copyright {
