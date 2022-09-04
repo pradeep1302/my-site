@@ -86,9 +86,10 @@ a {
     line-height: 2;
 }
 
-.hello {
+.hello,
+.getintouch {
     color: #40514e;
-    width: 30%;
+    width: 50%;
     margin: auto;
     line-height: 2;
 }
@@ -97,12 +98,6 @@ a {
     text-decoration: none;
 }
 
-.getintouch {
-    color: #40514e;
-    width: 50%;
-    margin: auto;
-    line-height: 2;
-}
 
 hr {
     border-style: dotted none none dotted;
